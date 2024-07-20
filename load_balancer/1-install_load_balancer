@@ -16,8 +16,8 @@ frontend alice-frontend
         default_backend alice-backend
 backend alice-backend
         balance roundrobin
-        server 6154-web-01 52.90.97.240 check
-        server 6154-web-02 34.235.89.184 check
+        server 6154-web-01 52.90.97.240:80 check
+        server 6154-web-02 34.235.89.184:80 check
 "
 echo "$server_config" | sudo tee -a /etc/haproxy/haproxy.cfg
 
