@@ -1,0 +1,8 @@
+# Configuring ssh client so that I can connect to the server without typing a password.
+<<<<<<< HEAD
+Host 3.80.79.188
+=======
+Host 54.196.216.8
+>>>>>>> 76331224315d76539b4bfe24b1f3a17164d267eb
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no
